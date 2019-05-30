@@ -1,7 +1,7 @@
 <?php
   for($a=2;$a<70;$a=$a+2){
   echo "Buenos Días"."\n";
-  if($a/3!=abs($a/3)){echo $a."_";}
+  if($a/3!=floor($a/3)){echo $a."_";}
   echo $a;
 }
 ?>
